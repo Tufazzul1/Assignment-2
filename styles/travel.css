@@ -8,7 +8,20 @@ body {
 }
 
 /* shared styles */
+.btn-primary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #ffffff;
+}
 
+.title-primary {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
 
 
 /* Nav section styles */
@@ -24,12 +37,12 @@ nav {
     align-items: center;
 }
 
-.nav-logo h2{
+.nav-logo h2 {
     font-size: 36px;
     font-weight: 800;
 }
 
-.nav-span{
+.nav-span {
     color: #FF5400;
 }
 
@@ -58,4 +71,104 @@ nav {
 
 .nav-menu a:hover {
     color: #FF5400;
+}
+
+/* banner section styles */
+.banner {
+    width: 1320px;
+    height: 600px;
+    margin: 0px auto;
+    color: #ffffff;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-content {
+    margin-top: 150px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.banner-content h1 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-inputs {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 350px;
+}
+
+.banner-inputs>select {
+    padding: 10px 20px;
+    color: #424247;
+    border-radius: 8px;
+    margin-right: 20px;
+    border: none;
+}
+
+.banner-inputs i {
+    padding: 5px;
+}
+
+
+/* tour section styles */
+
+.tour {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.tour-description {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.tour-description>h2 {
+    text-align: left;
+}
+
+.tour-description p, li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* destination sectin styles */
+.destination{
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    .banner-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }

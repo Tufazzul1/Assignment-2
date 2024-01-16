@@ -428,6 +428,10 @@ footer {
         display: flex;
     }
 
+    .banner{
+        margin-top: 20px;
+    }
+
     .banner-inputs {
         flex-direction: column;
 

@@ -3,8 +3,9 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width: 90%;
 }
 
 /* shared styles */
@@ -21,6 +22,13 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+}
+
+.pera {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
@@ -75,7 +83,7 @@ nav {
 
 /* banner section styles */
 .banner {
-    width: 1320px;
+    width: 100%;
     height: 600px;
     margin: 0px auto;
     color: #ffffff;
@@ -85,6 +93,7 @@ nav {
     background-blend-mode: multiply;
     background-size: cover;
     position: relative;
+    background-position: 100%;
 }
 
 .banner-content {
@@ -92,7 +101,7 @@ nav {
     position: absolute;
     align-items: center;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 270px;
 }
 
 .banner-content h1 {
@@ -138,20 +147,161 @@ nav {
     text-align: left;
 }
 
-.tour-description p, li {
+.tour-description p,
+li {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
 
+
 /* destination sectin styles */
-.destination{
+.destination {
     margin-top: 100px;
 }
 
+.img-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 50px;
+    position: relative;
+}
+
+.box-item-1> h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.box-item-2> h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.box-item-3> h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.box-item-4> h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.box-item-5> h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.box-item-6> h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.box-item-7> h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.box-item-1 {
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+
+.box-item-2 {
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+
+.box-item-3 {
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+}
+
+.box-item-4 {
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+}
+
+.box-item-5 {
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+}
+
+.box-item-6 {
+    grid-column: 1/span 6;
+    grid-row: 3/span 1;
+}
+
+.box-item-7 {
+    grid-column: 7/span 6;
+    grid-row: 3/span 1;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* responsive styles */
 
 @media screen and (max-width:600px) {
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-menu li {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #menu-toggle:checked+.menu-icon+.nav-menu {
+        display: flex;
+    }
+
 
     .banner {
         width: 100%;

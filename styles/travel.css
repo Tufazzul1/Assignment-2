@@ -6,6 +6,7 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 90%;
+    background-color: #fff;
 }
 
 /* shared styles */
@@ -115,14 +116,15 @@ nav {
     margin-left: 330px;
 }
 
-.banner-inputs> select {
+.banner-inputs>select {
     padding: 10px 20px;
     color: #424247;
     border-radius: 8px;
     margin-right: 20px;
     border: none;
 }
-.banner-inputs> input {
+
+.banner-inputs>input {
     padding: 10px 15px;
     color: #424247;
     border-radius: 8px;
@@ -177,7 +179,7 @@ li {
     position: relative;
 }
 
-.box-item-1> h1 {
+.box-item-1>h1 {
     font-size: 28px;
     font-weight: 800;
     color: #fff;
@@ -185,7 +187,8 @@ li {
     top: 150px;
     left: 250px;
 }
-.box-item-2> h1 {
+
+.box-item-2>h1 {
     font-size: 28px;
     font-weight: 800;
     color: #fff;
@@ -193,7 +196,8 @@ li {
     top: 150px;
     left: 250px;
 }
-.box-item-3> h1 {
+
+.box-item-3>h1 {
     font-size: 28px;
     font-weight: 800;
     color: #fff;
@@ -201,7 +205,8 @@ li {
     top: 150px;
     left: 250px;
 }
-.box-item-4> h1 {
+
+.box-item-4>h1 {
     font-size: 28px;
     font-weight: 800;
     color: #fff;
@@ -209,7 +214,8 @@ li {
     top: 150px;
     left: 250px;
 }
-.box-item-5> h1 {
+
+.box-item-5>h1 {
     font-size: 28px;
     font-weight: 800;
     color: #fff;
@@ -217,7 +223,8 @@ li {
     top: 150px;
     left: 250px;
 }
-.box-item-6> h1 {
+
+.box-item-6>h1 {
     font-size: 28px;
     font-weight: 800;
     color: #fff;
@@ -225,7 +232,8 @@ li {
     top: 150px;
     left: 250px;
 }
-.box-item-7> h1 {
+
+.box-item-7>h1 {
     font-size: 28px;
     font-weight: 800;
     color: #fff;
@@ -277,7 +285,7 @@ li {
 
 /* choose section styles */
 
-.choose{
+.choose {
     margin-top: 100px;
 }
 
@@ -287,33 +295,93 @@ li {
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-    padding: 20px; 
+    padding: 20px;
     gap: 20px;
     margin-top: 50px;
 }
 
 .choose-box-1,
 .choose-box-2 {
-    width: 45%; 
-    background-color: rgba(41, 206, 246, 0.05); 
-    padding: 20px; 
-    margin-bottom: 20px; 
+    width: 45%;
+    background-color: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
     border-radius: 16px;
-    border: 1px solid  rgba(41, 206, 246, 0.20);    
+    border: 1px solid rgba(41, 206, 246, 0.20);
 }
 
-.choose-box-1{
+.choose-box-1 {
     background-color: rgba(251, 181, 99, 0.05);
-    border: 1px solid rgba(251, 181, 99, 0.20); 
+    border: 1px solid rgba(251, 181, 99, 0.20);
 }
+
 .choose-box-3 {
-    width: 45%; 
-    text-align: center;
-    background-color: rgba(251, 181, 99, 0.05); 
-    border: 1px solid rgba(251, 181, 99, 0.20); 
-    padding: 20px; 
+    width: 45%;
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 20px;
     border-radius: 16px;
 }
+
+/* Newsletter section style */
+
+.newsletter {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.newsletter-container {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-container h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.newsletter-container p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+
+.newsletter-container input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 90%;
+    color: rgba(19, 19, 24, 0.30);
+    border: none;
+}
+
+.newsletter-container>a>.btn-primary {
+    width: 90%;
+}
+
+.newletter-image {
+    position: relative;
+}
+
+.newletter-box {
+    transform: rotate(-19.628deg);
+    background-color: #FF5400;
+    color: #fff;
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    text-align: center;
+    position: absolute;
+    margin-top: -170px;
+    right: 70px;
+}
+
 
 
 /* responsive styles */

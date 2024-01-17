@@ -606,6 +606,16 @@ footer {
         grid-row: 7/span 1;
     }
 
+    /* choose section */
+
+    .choose{
+        width: 100%;
+    }
+
+    .choose-box-1, .choose-box-2, .choose-box-3{
+        width: 80%;
+    }
+
     /* DISCOUNT SECTION STYLES */
 
     .discount{

@@ -304,6 +304,51 @@ li {
     border-radius: 16px;
 }
 
+/* Discount section styles */
+.discount{
+    margin-top: 100px;
+}
+
+.discount-img{
+    background-image: url('../Images/Group\ 39.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    position: relative;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.discount-box{
+    background-color: #FF5400;
+    position: absolute;
+    text-align: left;
+    width: 45%;
+    padding: 20px;
+    border-radius: 16px;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+    background: rgba(255, 255, 255, 0.50);
+}
+
+.discount-box h4, .box-sub i{
+    color: #FF5400;
+    padding: 5px;
+}
+
+/* .rotate {
+   transform: scaleX(-1);
+} */
+
+.discount-img-container a >.btn-primary{
+    margin-top: 50px;
+    margin-left: 45%;
+}
+
+
 /* testimonial section styles */
 
 .testimonial {

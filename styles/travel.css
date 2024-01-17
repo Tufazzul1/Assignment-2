@@ -463,6 +463,13 @@ footer {
 @media screen and (max-width: 576px) {
 
 
+    .nav-logo h2 {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+
     .nav-menu ul {
         visibility: hidden;
         flex-direction: column;
@@ -504,8 +511,8 @@ footer {
     }
 
     .banner-content h1 {
-        font-size: 30px;
-        font-weight: 600;
+        font-size: 32px;
+        font-weight: 700;
         margin: 0;
     }
 

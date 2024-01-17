@@ -307,6 +307,7 @@ li {
 /* Discount section styles */
 .discount{
     margin-top: 100px;
+    width: 100%;
 }
 
 .discount-img{
@@ -343,10 +344,6 @@ li {
    transform: scaleX(-1);
 } */
 
-.discount-img-container a >.btn-primary{
-    margin-top: 50px;
-    margin-left: 45%;
-}
 
 
 /* testimonial section styles */
@@ -524,9 +521,9 @@ footer {
     }
 
     .btn-primary {
-        width: 287px;
+        /* width: 287px; */
         margin: 0 auto;
-        padding: 16px;
+        padding: 12px;
         border-radius: 8px;
         background-color: #FF5400;
     }
@@ -607,6 +604,26 @@ footer {
     .box-item-7 {
         grid-column: 1/span 12;
         grid-row: 7/span 1;
+    }
+
+    /* DISCOUNT SECTION STYLES */
+
+    .discount{
+        width: 100%;
+    }
+
+    .discount-img-container{
+        width: 100%;
+    }
+
+    .discount-box{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .discount-btn{
+        margin-right: 50%;
     }
 
 
